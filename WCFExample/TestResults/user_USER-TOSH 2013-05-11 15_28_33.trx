@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c736be9a-9949-44bc-a791-4a1746f40143" name="user@USER-TOSH 2013-05-11 15:28:33" runUser="user-TOSH\user" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="fe3f6606-56e3-48d7-9f82-6b6a16139f29">
+    <Deployment runDeploymentRoot="user_USER-TOSH 2013-05-11 15_28_33">
+      <DeploymentItem filename="C:\Users\user\Desktop\WCFExample_src\WCFExample\Clinic\bin\Debug\Clinic.dll" />
+      <DeploymentItem filename="C:\Users\user\Desktop\WCFExample_src\WCFExample\ClinicUnitTest\bin\Debug\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\user\Desktop\WCFExample_src\WCFExample\Clinic.Model\bin\Debug\Clinic.Model.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-05-11T15:28:33.7807192+03:00" queuing="2013-05-11T15:28:40.5881086+03:00" start="2013-05-11T15:28:40.8751250+03:00" finish="2013-05-11T15:28:44.5853372+03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CRUDTest" storage="c:\users\user\desktop\wcfexample_src\wcfexample\clinicunittest\bin\debug\clinicunittest.dll" id="b4b539da-8ac6-90df-ff72-9b4ba32f1574">
+      <Execution id="75217057-a81b-4aae-b3f0-f9a72d3aa61f" />
+      <TestMethod codeBase="C:/Users/user/Desktop/WCFExample_src/WCFExample/ClinicUnitTest/bin/Debug/ClinicUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ClinicUnitTest.ConsultationRepoTest, ClinicUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CRUDTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b4b539da-8ac6-90df-ff72-9b4ba32f1574" executionId="75217057-a81b-4aae-b3f0-f9a72d3aa61f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="75217057-a81b-4aae-b3f0-f9a72d3aa61f" testId="b4b539da-8ac6-90df-ff72-9b4ba32f1574" testName="CRUDTest" computerName="USER-TOSH" duration="00:00:01.6959484" startTime="2013-05-11T15:28:41.0381343+03:00" endTime="2013-05-11T15:28:43.0032467+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75217057-a81b-4aae-b3f0-f9a72d3aa61f">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Assert.Equals should not be used for Assertions. Please use Assert.AreEqual &amp; overloads instead.</Message>
+          <StackTrace>   at ClinicUnitTest.ConsultationRepoTest.CRUDTest() in C:\Users\user\Desktop\WCFExample_src\WCFExample\ClinicUnitTest\ConsultationRepoTest.cs:line 111
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

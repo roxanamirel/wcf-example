@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceLibrary", "ServiceLibrary\ServiceLibrary.csproj", "{FEDC101F-A455-4F13-84AA-59278725A44B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFService", "WCFService\WCFService.csproj", "{7C0F987C-4362-472A-B200-D62C862CCDF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFClient", "WCFClient\WCFClient.csproj", "{6270C15A-E690-49D4-8013-8830CB757A12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinic.Repo", "Clinic\Clinic.Repo.csproj", "{A2228912-5698-4EB4-9D59-5360AEDF980D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinic.BLL", "Clinic.BLL\Clinic.BLL.csproj", "{274E1F31-92D1-40F9-BB33-A0ED0F4171B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinic.Model", "Clinic.Model\Clinic.Model.csproj", "{937C2A37-0802-4C84-9F26-76F13F908AFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicUnitTest", "ClinicUnitTest\ClinicUnitTest.csproj", "{8D1AA83F-0602-47D0-BF00-8738FE51D311}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEDC101F-A455-4F13-84AA-59278725A44B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEDC101F-A455-4F13-84AA-59278725A44B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEDC101F-A455-4F13-84AA-59278725A44B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEDC101F-A455-4F13-84AA-59278725A44B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C0F987C-4362-472A-B200-D62C862CCDF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C0F987C-4362-472A-B200-D62C862CCDF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C0F987C-4362-472A-B200-D62C862CCDF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C0F987C-4362-472A-B200-D62C862CCDF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6270C15A-E690-49D4-8013-8830CB757A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6270C15A-E690-49D4-8013-8830CB757A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6270C15A-E690-49D4-8013-8830CB757A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6270C15A-E690-49D4-8013-8830CB757A12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2228912-5698-4EB4-9D59-5360AEDF980D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2228912-5698-4EB4-9D59-5360AEDF980D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2228912-5698-4EB4-9D59-5360AEDF980D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2228912-5698-4EB4-9D59-5360AEDF980D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{274E1F31-92D1-40F9-BB33-A0ED0F4171B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{274E1F31-92D1-40F9-BB33-A0ED0F4171B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{274E1F31-92D1-40F9-BB33-A0ED0F4171B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{274E1F31-92D1-40F9-BB33-A0ED0F4171B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{937C2A37-0802-4C84-9F26-76F13F908AFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{937C2A37-0802-4C84-9F26-76F13F908AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{937C2A37-0802-4C84-9F26-76F13F908AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{937C2A37-0802-4C84-9F26-76F13F908AFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D1AA83F-0602-47D0-BF00-8738FE51D311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1AA83F-0602-47D0-BF00-8738FE51D311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1AA83F-0602-47D0-BF00-8738FE51D311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1AA83F-0602-47D0-BF00-8738FE51D311}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6ce7d358-68e6-443c-a966-9736424791fa" name="user@USER-TOSH 2013-05-10 20:27:26" runUser="user-TOSH\user" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="fc2b75f9-261f-44fd-951f-fab3818fc2f9">
+    <Deployment runDeploymentRoot="user_USER-TOSH 2013-05-10 20_27_26">
+      <DeploymentItem filename="C:\Users\user\Desktop\WCFExample_src\WCFExample\Clinic\bin\Debug\Clinic.dll" />
+      <DeploymentItem filename="C:\Users\user\Desktop\WCFExample_src\WCFExample\ClinicUnitTest\bin\Debug\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\user\Desktop\WCFExample_src\WCFExample\Clinic.Model\bin\Debug\Clinic.Model.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-05-10T20:27:26.8927465+03:00" queuing="2013-05-10T20:27:31.6230171+03:00" start="2013-05-10T20:27:31.8350292+03:00" finish="2013-05-10T20:27:44.3197433+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CRUDTest" storage="c:\users\user\desktop\wcfexample_src\wcfexample\clinicunittest\bin\debug\clinicunittest.dll" id="b4b539da-8ac6-90df-ff72-9b4ba32f1574">
+      <Execution id="62f1605e-8277-49ba-b9de-d15995bf74ca" />
+      <TestMethod codeBase="C:/Users/user/Desktop/WCFExample_src/WCFExample/ClinicUnitTest/bin/Debug/ClinicUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ClinicUnitTest.ConsultationRepoTest, ClinicUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CRUDTest" />
+    </UnitTest>
+    <UnitTest name="CRUDPatientTest" storage="c:\users\user\desktop\wcfexample_src\wcfexample\clinicunittest\bin\debug\clinicunittest.dll" id="aa1d12dc-4a0d-3559-9db4-11eb66b2dd55">
+      <Execution id="ad40b349-e912-4a28-9117-3caab94daa1f" />
+      <TestMethod codeBase="C:/Users/user/Desktop/WCFExample_src/WCFExample/ClinicUnitTest/bin/Debug/ClinicUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ClinicUnitTest.PatientRepoTest, ClinicUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CRUDPatientTest" />
+    </UnitTest>
+    <UnitTest name="CRUDUserTest" storage="c:\users\user\desktop\wcfexample_src\wcfexample\clinicunittest\bin\debug\clinicunittest.dll" id="c4ec4c08-6f7a-f43a-0e37-c110a8c2f909">
+      <Execution id="d55aea69-0f97-4d96-8e5a-34840a2cd5c1" />
+      <TestMethod codeBase="C:/Users/user/Desktop/WCFExample_src/WCFExample/ClinicUnitTest/bin/Debug/ClinicUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ClinicUnitTest.UserRepoTest, ClinicUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CRUDUserTest" />
+    </UnitTest>
+    <UnitTest name="CRUDSecretaryTest" storage="c:\users\user\desktop\wcfexample_src\wcfexample\clinicunittest\bin\debug\clinicunittest.dll" id="0ea192da-ccea-c8bc-02cb-c05f3b2147c9">
+      <Execution id="65a59fe4-ac86-4b59-a94b-db249ae8c425" />
+      <TestMethod codeBase="C:/Users/user/Desktop/WCFExample_src/WCFExample/ClinicUnitTest/bin/Debug/ClinicUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ClinicUnitTest.SecretaryRepoTest, ClinicUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CRUDSecretaryTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0ea192da-ccea-c8bc-02cb-c05f3b2147c9" executionId="65a59fe4-ac86-4b59-a94b-db249ae8c425" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa1d12dc-4a0d-3559-9db4-11eb66b2dd55" executionId="ad40b349-e912-4a28-9117-3caab94daa1f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b4b539da-8ac6-90df-ff72-9b4ba32f1574" executionId="62f1605e-8277-49ba-b9de-d15995bf74ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c4ec4c08-6f7a-f43a-0e37-c110a8c2f909" executionId="d55aea69-0f97-4d96-8e5a-34840a2cd5c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="65a59fe4-ac86-4b59-a94b-db249ae8c425" testId="0ea192da-ccea-c8bc-02cb-c05f3b2147c9" testName="CRUDSecretaryTest" computerName="USER-TOSH" duration="00:00:09.2331791" startTime="2013-05-10T20:27:31.9580362+03:00" endTime="2013-05-10T20:27:41.4435788+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="65a59fe4-ac86-4b59-a94b-db249ae8c425">
+    </UnitTestResult>
+    <UnitTestResult executionId="ad40b349-e912-4a28-9117-3caab94daa1f" testId="aa1d12dc-4a0d-3559-9db4-11eb66b2dd55" testName="CRUDPatientTest" computerName="USER-TOSH" duration="00:00:00.5679016" startTime="2013-05-10T20:27:41.4475790+03:00" endTime="2013-05-10T20:27:42.0226119+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ad40b349-e912-4a28-9117-3caab94daa1f">
+    </UnitTestResult>
+    <UnitTestResult executionId="62f1605e-8277-49ba-b9de-d15995bf74ca" testId="b4b539da-8ac6-90df-ff72-9b4ba32f1574" testName="CRUDTest" computerName="USER-TOSH" duration="00:00:00.5213856" startTime="2013-05-10T20:27:42.0666144+03:00" endTime="2013-05-10T20:27:42.5956447+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62f1605e-8277-49ba-b9de-d15995bf74ca">
+    </UnitTestResult>
+    <UnitTestResult executionId="d55aea69-0f97-4d96-8e5a-34840a2cd5c1" testId="c4ec4c08-6f7a-f43a-0e37-c110a8c2f909" testName="CRUDUserTest" computerName="USER-TOSH" duration="00:00:00.1357032" startTime="2013-05-10T20:27:42.6006450+03:00" endTime="2013-05-10T20:27:42.7406530+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d55aea69-0f97-4d96-8e5a-34840a2cd5c1">
+    </UnitTestResult>
+  </Results>
+</TestRun>
